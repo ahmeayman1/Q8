@@ -85,7 +85,88 @@ const questions = [
 "Protein Energy Malnutrition","Primary Energy Malnutrition",
 "Protein Excess Malnutrition","Partial Energy Malnutrition"],a:0},
 ];
-
+mcqQuestions.push(
+  {
+    q: 'According to the classification of malnutrition, "Over nutrition" includes the consumption of too much of:',
+    options: [
+      "Only calories and fats",
+      "Specific vitamins, minerals, or dietary supplements",
+      "Only protein and carbohydrates",
+      "Water and fiber"
+    ],
+    answer: 1
+  },
+  {
+    q: 'Which of the following describes the mechanism of "Starvation" in adults?',
+    options: [
+      "Acute excess of Vitamin D",
+      "Severe under nutrition derived from prolonged inadequacy of food intake",
+      "Prolonged positive energy balance",
+      "Imbalance caused by high protein intake"
+    ],
+    answer: 1
+  },
+  {
+    q: 'In PEM, "Cachexia" is specifically mentioned as a cause occurring in cases of:',
+    options: [
+      "Small intestine disease",
+      "Thyrotoxicosis",
+      "Cancer",
+      "Faulty weaning practice"
+    ],
+    answer: 2
+  },
+  {
+    q: 'Why is a child with Marasmus often described as "skin and bones"?',
+    options: [
+      "Due to high plasma albumin",
+      "Because of subcutaneous fat loss and wasted muscles with no edema",
+      "Due to symmetrical skin changes and fatty liver",
+      "Because body weight is exactly 80% of normal"
+    ],
+    answer: 1
+  },
+  {
+    q: 'Which laboratory finding specifically distinguishes Kwashiorkor?',
+    options: [
+      "Serum iron below 30 µg/dl",
+      "Hemoglobin as low as 3 g/dl",
+      "Low plasma albumin",
+      "Large oval red cells"
+    ],
+    answer: 2
+  },
+  {
+    q: 'Vitamin D hydroxylation is impaired specifically in:',
+    options: [
+      "Elderly patients with Osteomalacia",
+      "Premature infants of low birth weight",
+      "Adults with thyrotoxicosis",
+      "Children with hookworm infestation"
+    ],
+    answer: 1
+  },
+  {
+    q: 'What is a late sign (severe case) of Rickets?',
+    options: [
+      "Craniotabes",
+      "Curvatures of the long bones (Bowlegs)",
+      "Rachitic rosary",
+      "Swelling of epiphyses at wrists"
+    ],
+    answer: 1
+  },
+  {
+    q: 'Which of these is a community-level prevention strategy for PEM?',
+    options: [
+      "Administration of Vitamin B12",
+      "Socioeconomic and community development",
+      "Treatment of peptic ulcers",
+      "Use of heat-retaining clothing"
+    ],
+    answer: 1
+  }
+);
 /* SHUFFLE */
 questions.sort(()=>Math.random()-0.5);
 
