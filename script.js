@@ -166,7 +166,7 @@ mcqQuestions.push(
     ],
     answer: 1
   }
-);
+  };
 /* SHUFFLE */
 questions.sort(()=>Math.random()-0.5);
 
